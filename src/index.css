@@ -1,0 +1,114 @@
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.page-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-frame {
+  width: 375px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-header .logo {
+  width: 80px;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #111827;
+  margin: 10px 0;
+}
+
+p {
+  color: #6b7280;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 90%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59,130,246,0.2);
+}
+
+.btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin: 10px 0;
+  width: 90%;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2563eb;
+}
+
+.secondary-btn {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.secondary-btn:hover {
+  background-color: #d1d5db;
+}
+
+.profile-info {
+  width: 90%;
+  background-color: #f3f4f6;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 24px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
