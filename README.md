@@ -1,16 +1,109 @@
 # React + Vite
+# React JS Intern Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Author:** Divya Alluri  
+**GitHub:** [https://github.com/divyaalluri1312/react_intern_assignment](https://github.com/divyaalluri1312/react_intern_assignment)  
+**Live Demo:** [Your Deployed URL Here]
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Project Overview**
 
-## React Compiler
+This project is a React JS implementation of a **mobile app UI** based on the Adobe XD design: [XD Design Link](https://xd.adobe.com/view/b68eea25-003d-4a5d-8fdd-d463eeb20b32-e3dd).  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application includes four main screens:
 
-## Expanding the ESLint configuration
+1. **Landing Screen** – Welcome page with a hero image and navigation to login.  
+2. **Login Screen** – Email/password login form with navigation to signup.  
+3. **Signup Screen** – User registration form with navigation to login.  
+4. **Profile Screen** – Displays user profile information with a back button.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+All screens are **centered in a mobile frame**, fully responsive, and navigation works seamlessly.
+
+---
+
+## **Folder Structure**
+react_intern_assignment/
+├─ src/
+│ ├─ App.jsx
+│ ├─ main.jsx
+│ ├─ index.css
+│ ├─ pages/
+│ │ ├─ Landing.jsx
+│ │ ├─ Login.jsx
+│ │ ├─ Signup.jsx
+│ │ └─ Profile.jsx
+│ └─ assets/
+│ ├─ images/
+│ │ ├─ landing-hero.png
+│ │ ├─ login-bg.png
+│ │ ├─ signup-bg.png
+│ │ └─ profile-bg.png
+│ └─ icons/
+│ ├─ logo.svg
+│ ├─ user.svg
+│ ├─ email.svg
+│ └─ back.svg
+├─ package.json
+└─ README.md
+
+yaml
+Copy code
+
+---
+
+## **Technologies Used**
+
+- **React JS 18**
+- **React Router DOM 6**
+- **Vite**
+- **HTML5 & CSS3**
+
+---
+
+## **Setup Instructions**
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/divyaalluri1312/react_intern_assignment.git
+Navigate to the project folder
+
+bash
+Copy code
+cd react_intern_assignment
+Install dependencies
+
+bash
+Copy code
+npm install
+Run the project locally
+
+bash
+Copy code
+npm run dev
+Open the URL shown in terminal (usually http://localhost:5173) to view the app.
+
+Available Scripts
+npm run dev – Start the development server
+
+npm run build – Build the production version
+
+npm run preview – Preview the production build
+
+npm run lint – Run ESLint on the project
+
+Features
+Pixel-perfect design based on Adobe XD
+
+Fully functional navigation between pages
+
+Centered mobile app interface
+
+Clean, modular React components
+
+Placeholder images and icons included
+
+Author Contact
+Name: Divya Alluri
+
+GitHub: https://github.com/divyaalluri1312
